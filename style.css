@@ -185,6 +185,14 @@ main .hover-me {
 }
 
 @media screen and (max-width: 960px) {
+  header img {
+    grid-column: 1 / 13;
+    justify-self: center;
+  }
+  header nav {
+    grid-column: 1 / 13;
+    justify-self: center;
+  }
   main img {
     grid-column: 2 / span 10;
   }
