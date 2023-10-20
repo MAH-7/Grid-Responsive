@@ -91,16 +91,18 @@ main .hover-me {
   padding: 0.2rem;
 }
 
-.card:hover .img1 {
+.card:hover .img1,
+.card-clicked .img1 {
   transform: scale(1.5, 1.2) translate(5px, -30px) rotate(5deg);
 }
 
-.card:hover .img1::before {
-  transition: transform 1s 0.4s;
+.card:hover .img1::before,
+.card-clicked .img1::before {
   transform: translateX(400px) skewX(-10deg);
 }
 
-.card:hover .img2 {
+.card:hover .img2,
+.card-clicked .img2 {
   transform: translateY(120%);
 }
 
